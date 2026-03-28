@@ -3,15 +3,16 @@ body{
   color: black;
   text-align: center;
   padding: 2rem;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
 }
 
 header{
   color: red;
   font-size: 2rem;
-  border-bottom: black solid 3px;
+  border-bottom: 3px solid black;
   padding-bottom: 1rem;
-  marrgin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 img{
@@ -21,6 +22,7 @@ img{
   display: block;
 
 }
+
 
 ul, ol{
   max-width: 400px;
@@ -50,6 +52,17 @@ margin-top: 1rem;
 
 }
 
+button:hover{
+  background-color: black;
+  color: white;
+}
+
+section, article, ul, ol{
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 footer{
   background-color: darkgrey;
   text-align: center;
@@ -61,7 +74,8 @@ article{
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  max-width: 700px;
-  margin: 2rem auto;
   text-align: left;
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 1rem;
 }
