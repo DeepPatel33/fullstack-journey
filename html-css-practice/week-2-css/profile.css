@@ -1,6 +1,6 @@
 body{
-  background-color: #268ae2;
-  color: black;
+  background-color: rgb(109, 81, 81);
+  color: white;
   text-align: center;
   padding: 2rem;
   font-family: Arial, Helvetica, sans-serif;
@@ -8,7 +8,7 @@ body{
 }
 
 header{
-  color: red;
+  color: black;
   font-size: 2rem;
   border-bottom: 3px solid black;
   padding-bottom: 1rem;
@@ -37,14 +37,14 @@ section{
 }
 
 a{
-  color: black;
+  color: white;
   text-decoration: none;
   margin: 2%;
 }
 
 button{
 padding: 1rem 2rem;
-background-color: gray;
+background-color: white;
 border-radius: 2rem;
 border: none;
 cursor: pointer;
@@ -64,7 +64,7 @@ section, article, ul, ol{
 }
 
 footer{
-  background-color: darkgrey;
+  background-color: rgb(35, 30, 30);
   text-align: center;
   padding: 1rem;
   margin-top: 2rem;
@@ -76,6 +76,7 @@ article{
   gap: 1.5rem;
   text-align: left;
   background-color: white;
+  color: black;
   padding: 1.5rem;
   border-radius: 1rem;
 }
