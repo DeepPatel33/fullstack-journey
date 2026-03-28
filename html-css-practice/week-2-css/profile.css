@@ -1,0 +1,27 @@
+body{
+  background-color: #268ae2;
+  color: black;
+  text-align: center;
+}
+
+h1{
+  color: red;
+  font-size: large;
+
+}
+
+img{
+  width: 150px;
+  border-radius: 40%;
+}
+
+a{
+  color: black;
+  text-decoration: solid;
+}
+
+button{
+padding: 1rem;
+background-color: gray;
+border-radius: 2rem;
+}
